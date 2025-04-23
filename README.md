@@ -1,22 +1,22 @@
 # Express Pagination API
 
-This is a simple Express.js application that demonstrates paginated data fetching, search, and sorting functionalities using a mock data file. The API allows users to search, sort, and paginate employee data.
+Ini adalah aplikasi Express.js sederhana yang mendemonstrasikan pengambilan data dengan pagination, pencarian, dan penyortiran menggunakan file data dummy. API ini memungkinkan pengguna untuk mencari, menyortir, dan mempaginasikan data karyawan.
 
-## Features
+## Fitur
 
-- **Pagination**: Fetch data in pages with customizable `rowsPerPage`.
-- **Search**: Search by employee attributes (e.g., username, first name, last name).
-- **Sorting**: Sort by employee attributes (e.g., alphabetical or numerical).
-- **API**: Public API available to fetch employee data.
+- **Pagination**: Mengambil data dalam halaman dengan pengaturan `rowsPerPage` yang dapat disesuaikan.
+- **Pencarian**: Mencari berdasarkan atribut karyawan (misalnya, username, nama depan, nama belakang).
+- **Penyortiran**: Menyortir berdasarkan atribut karyawan (misalnya, abjad atau numerik).
+- **API**: API publik tersedia untuk mengambil data karyawan.
 
-## Prerequisites
+## Prasyarat
 
-Ensure you have the following installed before running the project:
+Pastikan Anda memiliki hal-hal berikut yang terinstal sebelum menjalankan proyek:
 
-- **Node.js**: Version 16.x or higher (recommended version: 16.x or 18.x).
-- **npm**: Node package manager (comes with Node.js).
+- **Node.js**: Versi 22.14.0 atau lebih tinggi.
+- **npm**: Node package manager (versi 10.9.2).
 
-## Installation
+## Instalasi
 
 ### 1. Clone the repository
 
@@ -36,7 +36,7 @@ cd express-pagination-api
 npm install
 ```
 
-### 4. Running the Application
+### 4. Menjalankan Project
 ```bash
 npm run start:dev
 ```
